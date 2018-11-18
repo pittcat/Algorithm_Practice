@@ -16,10 +16,10 @@ class Solution:
         :type root: TreeNode
         :rtype: List[int]
         """
-        res=[]
+        res = []
         if root:
             res.append(root.val)
-            res+=self.preorderTraversal(root.left)
-            res+=self.preorderTraversal(root.right)
+            res += self.preorderTraversal(root.left)
+            res += self.preorderTraversal(root.right)
 
         return res

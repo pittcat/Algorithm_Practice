@@ -20,7 +20,7 @@ Output: 0
 """
 
 
-class Solution(object):
+class Solution:
     def findMin(self, nums):
         """
         :type nums: List[int]
@@ -39,8 +39,3 @@ class Solution(object):
 
         result = min(nums[first], nums[last])
         return result
-
-
-# moe=Solution()
-# re=moe.findMin([1])
-# print(re)
